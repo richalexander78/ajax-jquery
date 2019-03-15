@@ -9,13 +9,13 @@ $(document).ready(function () {
     let statusHTML = '<ul class="bulleted">';
     
     $.each(response, function ( index, employee ) {
-      if (employee.inoffice === true) {
-					statusHTML += '<li class="in">';
-				} else {
-					statusHTML += '<li class="out">';  
-				}
-				statusHTML += employee.name;
-				statusHTML += '</li>';    
+    	if (employee.inoffice === true) {
+		statusHTML += '<li class="in">';
+	} else {
+		statusHTML += '<li class="out">';  
+	}
+	statusHTML += employee.name;
+	statusHTML += '</li>';    
     }); //end each loop
     
     statusHTML += '</ul>';
