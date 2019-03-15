@@ -1,4 +1,4 @@
-# AJAX and jQuery
+# AJAX and jQuery GET
 A basic boilerplate for AJAX with jQuery using JSON
 
 ## Documentation
